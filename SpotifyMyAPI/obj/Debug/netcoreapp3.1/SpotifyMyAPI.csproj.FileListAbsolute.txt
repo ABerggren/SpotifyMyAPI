@@ -1,0 +1,16 @@
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.exe
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.deps.json
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.runtimeconfig.json
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.runtimeconfig.dev.json
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.pdb
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.Web.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\bin\Debug\netcoreapp3.1\SpotifyMyAPI.Web.pdb
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.csproj.CopyComplete
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.pdb
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI\obj\Debug\netcoreapp3.1\SpotifyMyAPI.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\bin\Debug\netstandard2.1\SpotifyMyAPI.Web.deps.json
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\bin\Debug\netstandard2.1\SpotifyMyAPI.Web.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\bin\Debug\netstandard2.1\SpotifyMyAPI.Web.pdb
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\obj\Debug\netstandard2.1\SpotifyMyAPI.Web.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\obj\Debug\netstandard2.1\SpotifyMyAPI.Web.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\obj\Debug\netstandard2.1\SpotifyMyAPI.Web.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\obj\Debug\netstandard2.1\SpotifyMyAPI.Web.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web\obj\Debug\netstandard2.1\SpotifyMyAPI.Web.pdb
