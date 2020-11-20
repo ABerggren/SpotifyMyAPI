@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using Moq;
 using NUnit.Framework;
-using SpotifyMyAPI.Web;
 using SpotifyMyAPI.Web.Http;
 
-namespace SpotifyAPI.Web.Tests
+namespace SpotifyMyAPI.Web.Tests
 {
     [TestFixture]
     public class TokenAuthenticatorTest
