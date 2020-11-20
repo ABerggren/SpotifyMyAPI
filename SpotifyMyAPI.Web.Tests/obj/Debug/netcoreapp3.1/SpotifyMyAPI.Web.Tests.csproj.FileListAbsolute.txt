@@ -95,3 +95,5 @@ C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web.Tests\obj\Debug\ne
 C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web.Tests\obj\Debug\netcoreapp3.1\SpotifyMyAPI.Web.Tests.dll
 C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web.Tests\obj\Debug\netcoreapp3.1\SpotifyMyAPI.Web.Tests.pdb
 C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web.Tests\obj\Debug\netcoreapp3.1\SpotifyMyAPI.Web.Tests.genruntimeconfig.cache
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Alexander\source\repos\SpotifyMyAPI\SpotifyMyAPI.Web.Tests\bin\Debug\netcoreapp3.1\Moq.dll
