@@ -12,8 +12,13 @@ namespace SpotifyMyAPI
     {
         public static void Main(string[] args)
         {
-            var spotifyClient = "b4821faf687d4137ae12b735034ab9fd";
-            var spotifySecret = "8d1bc161e3ca4267ba35d2efb710f3c6";
+            Console.Write("Enter your ClientID: ");
+
+            var spotifyClient = Console.ReadLine();
+
+            Console.Write("Enter Client Secret: ");
+
+            var spotifySecret = Console.ReadLine();
 
             var webClient = new WebClient();
 
@@ -22,28 +27,33 @@ namespace SpotifyMyAPI
 
             var authHeader = Convert.ToBase64String(Encoding.Default.GetBytes($"{spotifyClient}:{spotifySecret}"));
             webClient.Headers.Add(HttpRequestHeader.Authorization, "Basic " + authHeader);
-
-            var tokenResponse = webClient.UploadValues("https://accounts.spotify.com/api/token", postparams);
-
-            var TokenRes = Encoding.UTF8.GetString(tokenResponse);
-
-            int pFrom = TokenRes.IndexOf("access_token") + "access_token".Length;
-            int pTo = TokenRes.LastIndexOf("token_type");
-            string semiToken = TokenRes.Substring(pFrom, pTo - pFrom);
-            string myAccessToken = semiToken.Substring(3, semiToken.Length - 6);
-
-            Console.WriteLine("press E to exit, enter to continue...");
-
-            while (Console.ReadKey().Key != ConsoleKey.E)
+            try
             {
-                Console.Write("Enter artists name: ");
-                var name = Console.ReadLine();
-                if (name != null && name != string.Empty) {
-                    SearchRequest search = new SearchRequest(SearchRequest.Types.Artist, name);
-                    var task = Search(myAccessToken, search);
-                    task.Wait();
-                }
+                var tokenResponse = webClient.UploadValues("https://accounts.spotify.com/api/token", postparams);
+                var TokenRes = Encoding.UTF8.GetString(tokenResponse);
+
+                int pFrom = TokenRes.IndexOf("access_token") + "access_token".Length;
+                int pTo = TokenRes.LastIndexOf("token_type");
+                string semiToken = TokenRes.Substring(pFrom, pTo - pFrom);
+                string myAccessToken = semiToken.Substring(3, semiToken.Length - 6);
+
                 Console.WriteLine("press E to exit, enter to continue...");
+
+                while (Console.ReadKey().Key != ConsoleKey.E)
+                {
+                    Console.Write("Enter artists name: ");
+                    var name = Console.ReadLine();
+                    if (name != null && name != string.Empty)
+                    {
+                        SearchRequest search = new SearchRequest(SearchRequest.Types.Artist, name);
+                        var task = Search(myAccessToken, search);
+                        task.Wait();
+                    }
+                    Console.WriteLine("press E to exit, enter to continue...");
+                }
+            }
+            catch (Exception ex) {
+                Console.WriteLine(ex.Message);
             }
         }
 
